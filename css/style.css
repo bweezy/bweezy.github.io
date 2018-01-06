@@ -1,0 +1,93 @@
+
+
+html {
+	height: 100%;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background: #E6DADA;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100%;
+	width: 100%;
+	padding-top: 50px;
+}
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(240,240,240,0);
+	overflow: hidden;
+	width:100%;
+	border-bottom: 1px solid #000;
+	position: absolute;
+	margin-left: 0;
+	top: 0;
+	left: 0;
+}
+
+.nav-name {
+	float: right;
+}
+
+nav ul li {
+	display: inline;
+	float:left;
+}
+
+
+nav ul li a {
+	display: block;
+	color: #000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: #999;
+	color: white;
+}
+
+.active {
+	background-color: #555;
+	color: white;
+}
+
+
+header {
+	display: block;
+	padding-top: .5em;
+	text-align: center;
+	font-size: 1.5em;
+
+}
+
+main {
+	padding: 0px 5px 5px 0px;
+	font-size: 1.1em;
+}
+
+.container {
+	width: 90%;
+	max-height: 80%;
+	height: 30%;
+	background-color: rgba(255,255,255,.4);
+	margin: 0 auto;
+	border-radius: 1em;
+	min-width: 20%;
+	overflow: auto;
+}
+
+.headshot {
+	display:inline;
+	float: left;
+	max-width: 100%;
+	height: calc(100% - 20px);
+	padding: 10px;
+	border-radius: 1em;
+}
